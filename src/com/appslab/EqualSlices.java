@@ -7,9 +7,9 @@ public class EqualSlices {
         Scanner scanner = new Scanner(System.in);
 
         int totalSlices = scanner.nextInt();
-        int recepiants = scanner.nextInt();
-        int slicePerRecepiant = scanner.nextInt();
+        int recipients = scanner.nextInt();
+        int slicePerRecipient = scanner.nextInt();
 
-        System.out.println(recepiants * slicePerRecepiant <= totalSlices);
+        System.out.println(recipients * slicePerRecipient <= totalSlices);
     }
 }
